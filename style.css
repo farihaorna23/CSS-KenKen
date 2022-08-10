@@ -10,9 +10,26 @@ html {
 
 body {
   background: linear-gradient(
-    to left bottom,
+    to left top,
     rgb(141, 141, 197),
     rgb(212, 125, 125)
   );
   min-height: 100vh;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  margin: 2.5rem auto;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }

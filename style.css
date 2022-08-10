@@ -1,7 +1,18 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
   font-size: 10px;
+}
+
+body {
+  background: linear-gradient(
+    to left bottom,
+    rgb(141, 141, 197),
+    rgb(212, 125, 125)
+  );
+  min-height: 100vh;
 }

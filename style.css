@@ -26,6 +26,7 @@ main {
 
 h1 {
   text-align: center;
+  padding-bottom: 05rem;
 }
 
 .grid {
@@ -39,6 +40,7 @@ h1 {
   font-size: 2rem;
   background-color: white;
   position: relative;
+  height: 150px;
 }
 
 #box1,
@@ -69,4 +71,10 @@ h1 {
   position: absolute;
   top: 0%;
   left: 0%;
+}
+
+.answer {
+  width: 50%;
+  height: 50%;
+  text-align: center;
 }

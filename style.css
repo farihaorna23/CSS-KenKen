@@ -21,7 +21,7 @@ main {
   max-width: 800px;
   width: 100%;
   margin: 2.5rem auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 h1 {
@@ -38,4 +38,16 @@ h1 {
   border: 0.1rem solid gray;
   font-size: 2rem;
   background-color: white;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box8,
+#box9,
+#box10,
+#box11 {
+  border-left: 0.5rem solid black;
 }
